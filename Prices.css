@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+/*Navigation Bar*/
+
+#topBar{
+    background-color: #021526;
+    z-index: 1;
+    top: 0px;
+    border: 1px;
+    position:sticky;
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 40%);
+    width: 100%;
+}
+
+#topBarContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right:30px;
+    margin: 0 auto;
+}
+
+.topBarLogo{
+    margin-left: 30px;
+}
+
+.topBarLinks li {
+    display: inline-table;
+    float:left;
+    padding-left: 30px; 
+    padding-top:10px
+}
+
+.topBarLinks a {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    position: relative;
+    padding: 0 0.75rem;
+    letter-spacing: 0.10em;
+    transition: text-shadow 0.5s 
+}
+
+.topBarLinks a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 1;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    
+  }
+  
+  .topBarLinks a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+.topBarLinks a:hover {
+    color: white;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
+    
+}
+
+#mainTitle{
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #08428C;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    -webkit-text-stroke: 0.5px #021526;
+}
+
+/*Actual Prices Section*/
+
+.priceContainer{
+    position:relative;
+    display: inline-table;
+    float: left;
+    width: 29.3%;
+    height: 20%;
+    margin: 2% 2% 2% 2%;
+    outline: 8px outset #042959;
+    margin-bottom: 2%;
+    box-shadow: 18px 18px 15px  rgb(0 0 0 / 40%);
+    background-color: #08428C
+}
+
+.priceContainer h2{
+    position:relative;
+    text-align: center;
+    color: #89BAD9;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing:0.2px;
+    -webkit-text-stroke: 0.1px;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.priceContainer ul{
+    list-style: none;
+    padding: 20 0 0 20;
+}
+
+.priceContainer li{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.two{
+padding: 0 0 70 0;
+}
+
+.three{
+    text-align: center;
+    margin-right: 0;
+}
+
+.money{
+    float: right;
+    padding-right: 40px;
+}
+
+.middle{
+    position: relative;
+    top: -35px;
+    right: 9px;
+    width: 250px;
+}
+
+.last{
+    position: relative;
+    right: -5px;
+    margin-top: 35px;
+    margin-bottom: 107px;
+    width: 320px;
+}
+
+.product{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #021526;
+    position:relative;
+    left: -810px;
+    padding-top: 0px;   
+}
+
+.order{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #021526;
+    position:relative;
+    left: 30px;
+    padding-top: 2px;
+}
+
+#productReminder a{
+    text-decoration: none;
+    color: blue;
+}
+
+#productReminder a:hover{
+    text-decoration: underline;
+}
+
+#productReminder a:after{
+    color: blue;
+}
+
+/*More Info Section*/
+
+#moreInfoSection{
+    position: relative; 
+    margin-top: 10px;
+    width:1000px;
+}
+
+#moreInfoSection h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #08428C;
+    -webkit-text-stroke: 0.1px #021526;
+    position: relative;
+    left: 20px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+#moreInfoSection h3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #0842BC;
+    position:relative;
+    left: 30px;
+}
+
+#moreInfoSection h3:hover{
+    color: #89BAD9;
+}
+
+#moreInfoSection hr{
+    position: relative;
+    width:650px;
+    right: 150px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+#moreInfoSection span{
+    position: relative;
+    float: right;
+    padding-right: 400;
+}
+
+.info{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #0842BC;
+    position:relative;
+    left: 30px; 
+}
+
+div.section.collapsed p{
+    display: none;
+}
+
+div.section.collapsed h3 span.closed{
+    display: none;
+}
+
+div.section:not(.collapsed) h3 span.open{
+    display: none;
+}
+
+/*Footer Section*/
+
+footer {
+    background: #021526;
+    height: auto;
+    width: 100vs;
+    font-family: "Poppins", sans-serif;
+    padding-top: 30px;
+    color: #fff;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-content {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+
+  .footer-content h3{
+    margin: 0;
+    font-weight: 400px;
+  }
+  
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:0px;
+    margin: 0.2rem 0 1.2rem 0;
+    padding-right: 25px;
+  }
+  
+  .socials li{
+    margin: 0 35px ;
+  }
+  
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .socials a{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+  }
+  
+  .socials a:hover{
+    color: #89BAD9;
+  }
+  
+  .footer-bottom {
+    background: #032340;
+    width: 100vw;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    color: #fff
+  }

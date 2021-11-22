@@ -1,0 +1,31 @@
+Overall Look and Feel of Intro
+------------------------------
+The overall look and feel should follow a calm, dark and blue theme. It is minimalist without any big colourful icons or bright, neon colours (other than the main page title).
+
+Colours
+-------
+#0402959
+#08428C
+#032340
+#021526
+#89BAD9
+#dcdcdc
+
+Iconography
+-----------
+The main icons we will be using are the company logo and icons representing social media like the instagram, facebook and twitter icons.
+The other icons will be minimalist, but descriptive to the information they are introducing.
+
+Typography
+----------
+We are using Poppins from Google Fonts
+
+Links
+-----
+In the navigation bar, the links are plain without user interaction, having animated underline/shadow on hover.
+The other links depend on what their purpose and location are. Some have underlines all the time, others appear on hover
+
+Buttons
+-------
+Buttons are given rounded corners, with first-letter capitalized in the text. The color applied to buttons are #08428C.
+
